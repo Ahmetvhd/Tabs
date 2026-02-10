@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.container{
+    padding: 1.5em;
+    border: 1px solid black;
+    width: 800px;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+.container-header{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.container button{
+    border: none;
+    background-color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.container button.active{
+    border-bottom: 2px solid black;
+}
+
+.content {
+    padding: 2em;
+    margin: 1em 0;
+    border-radius: 10px;
+
+    color: white;
+    background-color: black;
+
+    display: none;
+}
+.active{
+    display: block;
+}
